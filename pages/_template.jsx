@@ -38,7 +38,7 @@ module.exports = React.createClass({
               <Link
                 to={prefixLink("/")}
                 style={{
-                  background: `url('/images/shu.svg') no-repeat`,
+                  background: `url('${prefixLink("/")}images/shu.svg') no-repeat`,
                   color: `white`,
                   display: `block`,
                   height: 26,
