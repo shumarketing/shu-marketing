@@ -16,8 +16,8 @@ module.exports = React.createClass({
       <div>
         <Helmet
           meta = {[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' }
+            { name: 'description', content: 'Houston based marketing firm, providing strategic marketing and branding expertise' },
+            { name: 'keywords', content: 'marketing, strategy, strategic marketing, branding' }
           ]}
           title={config.siteTitle}
         />
