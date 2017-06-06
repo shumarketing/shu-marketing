@@ -23,11 +23,13 @@ module.exports = React.createClass({
         />
         <div
           style={{
-            background: '#433e35',
+            background: `black url('${prefixLink('/')}images/homepage.svg') no-repeat right top`,
+            maxHeight: 600,
             marginBottom: rhythm(1)
           }}
         >
           <div
+            // Navigation bar
             style={{
               margin: '0 auto',
               maxWidth: 960,
@@ -49,6 +51,36 @@ module.exports = React.createClass({
                 <span style={{ display: 'none' }}>shu marketing associates</span>
               </Link>
             </h1>
+          </div>
+          <div
+            // text over imagery
+            style={{
+              background: `url('${prefixLink('/')}images/bullhorn.svg') 650px center / 270px no-repeat`,
+              backgroundSize: '50%',
+              margin: '0 auto',
+              maxWidth: 960,
+              padding: `${rhythm(1)} ${rhythm(3 / 4)}`
+            }}
+          >
+            <h1 style={{
+              color: '#8DC63F',
+              fontSize: '3.5rem'
+            }}>
+              Market This.
+            </h1>
+            <h2 style={{
+              color: '#FFF',
+              fontSize: '2.5rem',
+              fontWeight: 200
+            }}>
+              Do That.
+            </h2>
+            <p style={{
+              color: 'white',
+              maxWidth: 540
+            }}>
+              We create tailored solutions for our customers, including international marketing management, strategic and business analysis, communications and event marketing.
+            </p>
           </div>
         </div>
         <div

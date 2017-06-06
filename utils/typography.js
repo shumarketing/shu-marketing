@@ -14,17 +14,21 @@ const options = {
   headerWeight: 300,
   bodyFontFamily: ['Open Sans', 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif'],
   bodyGray: 27,
-  bodyWeight: 400,
+  bodyWeight: 300,
   googleFonts: [
     {
       name: 'Raleway',
       styles: [
+        '100',
+        '200',
         '300'
       ]
     },
     {
       name: 'Open Sans',
       styles: [
+        '300',
+        '300i',
         '400',
         '400i',
         '700',
