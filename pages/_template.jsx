@@ -56,7 +56,6 @@ module.exports = React.createClass({
             // text over imagery
             style={{
               background: `url('${prefixLink('/')}images/bullhorn.svg') 650px center / 270px no-repeat`,
-              backgroundSize: '50%',
               margin: '0 auto',
               maxWidth: 960,
               padding: `${rhythm(1)} ${rhythm(3 / 4)}`
