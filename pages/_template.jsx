@@ -31,6 +31,8 @@ module.exports = React.createClass({
           <div
             // Navigation bar
             style={{
+              display: 'flex',
+              justifyContent: 'space-between',
               margin: '0 auto',
               maxWidth: 960,
               padding: `${rhythm(1)} ${rhythm(3 / 4)}`
@@ -51,6 +53,23 @@ module.exports = React.createClass({
                 <span style={{ display: 'none' }}>shu marketing associates</span>
               </Link>
             </h1>
+            <nav>
+              <ul>
+                <li style={{
+                  lineHeight: '.75rem'
+                }}>
+                  <Link
+                    style={{
+                      color: 'white',
+                      fontSize: '.75rem'
+                    }}
+                    to={prefixLink('/contact/')}
+                  >
+                    Contact
+                  </Link>
+                </li>
+              </ul>
+            </nav>
           </div>
           <div
             // text over imagery

@@ -62,7 +62,6 @@ export default class Index extends React.Component {
             </p>
           </div>
         </div>
-        {/* <Link to={prefixLink('/page-2/')}>Go to page 2</Link> */}
       </div>
     );
   }

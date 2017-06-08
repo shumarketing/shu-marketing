@@ -7,9 +7,13 @@ export default class Index extends React.Component {
     return (
       <div>
         <h1>
-          Hello
+          Contact Us
         </h1>
-        <p>Welcome to page 2</p>
+        <p>Let us know how we can help you.</p>
+        <ul>
+          <li>713.863.0980</li>
+          <li>hi@shumarketing.com</li>
+        </ul>
         <Link to={prefixLink('/')}>Go back to the homepage</Link>
       </div>
     );
